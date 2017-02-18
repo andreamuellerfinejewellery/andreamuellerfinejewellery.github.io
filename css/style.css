@@ -767,3 +767,114 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 #where-to-buy ul li {margin-bottom: 2.5rem}
 
 #where-to-buy ul h3, #where-to-buy ul p {margin-bottom: .25em}
+
+
+/* ----------------- COLLECTION ----------------- */
+
+#collection .collection-grid {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.collection-grid figure {
+    width: 19%;
+    margin: .5%;
+    position: relative;
+    overflow: hidden;
+}
+
+.collection-grid figure figcaption {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: center;
+    align-items: center;
+    
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+    background-color: rgba(232,191,177,.65);
+    background-color: white;
+    opacity: 0;
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    transition:all 0.25s cubic-bezier(.46,0,.59,1);
+    -webkit-transition:all 0.25s cubic-bezier(.46,0,.59,1);
+    -o-transition:all 0.25s cubic-bezier(.46,0,.59,1);
+    -moz-transition:all 0.25s cubic-bezier(.46,0,.59,1);
+}
+
+.collection-grid figure:hover figcaption {
+    opacity: 1;
+} 
+
+.collection-nav {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: center;
+    align-items: center;
+    
+    
+    -webkit-justify-content: center;
+    justify-content: space;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: center;
+    align-items: center;
+    
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+    padding: 10px;
+}
+
+.collection-nav li {
+    padding: 3px 30px 0;
+    border-right: solid 1px #e8bfb1;
+}
+
+.collection-nav li:first-child {
+    border-left: solid 1px #e8bfb1;
+}
+
+.active {
+    position: relative;
+}
+
+.active:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #e8bfb1;
+}
