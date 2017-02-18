@@ -132,15 +132,15 @@ a {color: #505275;}
 .sm-icon a:hover{opacity: .65;}
 
 .sm-icon a.facebook {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/facebook-icon.png);
+    background-image: url(../images/facebook-icon.png);
 }
 
 .sm-icon a.instagram {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/instagram-icon.png);
+    background-image: url(../images/instagram-icon.png);
 }
 
 .sm-icon a.twitter {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/twitter-icon.png);
+    background-image: url(../images/twitter-icon.png);
 }
 
 /* SPACING */
@@ -191,7 +191,7 @@ section {margin: 100px 0;}
 
 .blockquote-wrapper {
     padding: 7% 8%;
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/am-blockquote.jpg);
+    background-image: url(../images/am-blockquote.jpg);
     position: relative;
     overflow: hidden;
 }
@@ -244,7 +244,7 @@ blockquote p:before {
     height: 35px;
     width: 55px;
     
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/am-ornament.png);
+    background-image: url(../images/am-ornament.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -310,7 +310,7 @@ ul {
     background-color: #f2f2fd;
 }
 
-#homepage .masthead {background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/am-masthead-1.jpg);}
+#homepage .masthead {background-image: url(../images/am-masthead-1.jpg);}
 
 .masthead h1 {
     max-width: 20rem;
@@ -434,7 +434,7 @@ ul {
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url("http://www.justaddsalt.ca/andreamueller2017/images/collection-2.jpg");
+    background-image: url("../images/collection-2.jpg");
     
     border: solid .0875rem #e7e8ed;
     border-radius: .0625em;
@@ -446,7 +446,7 @@ ul {
 }
 
 #collections ul li:first-child {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/collection-1.jpg);
+    background-image: url(../images/collection-1.jpg);
 }
 
 #collections ul li a {
@@ -493,7 +493,7 @@ ul {
 }
 
 #collections ul li:first-child {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/collection-1.jpg);
+    background-image: url(../images/collection-1.jpg);
 }
 
 /* Call to action */
@@ -579,7 +579,7 @@ ul {
     margin: 1.25% auto;
     padding: 8% 5% 7.5%;
     
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/am-big-cta-1.jpg);
+    background-image: url(../images/am-big-cta-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -672,15 +672,15 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 .footer-social-media .sm-icon a:hover{opacity: 1}
 
 .footer-social-media .sm-icon a.facebook {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/facebook-icon-white.png);
+    background-image: url(../images/facebook-icon-white.png);
 }
 
 .footer-social-media .sm-icon a.instagram {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/instagram-icon-white.png);
+    background-image: url(../images/instagram-icon-white.png);
 }
 
 .footer-social-media .sm-icon a.twitter {
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/twitter-icon-white.png);
+    background-image: url(../images/twitter-icon-white.png);
 }
 
 
