@@ -96,6 +96,8 @@ h4, small, .cuatro {font-size: .65625em;} /* 10.5pt */
 
 /* COMMON ELEMENTS */
 
+a {color: #505275;}
+
 .background-fixed {
     background-size: cover;
     background-position: center center;
@@ -710,7 +712,8 @@ footer img {max-width: 46px; padding-bottom: 1.5rem;}
 /* ----------------- BLOG POST ----------------- */
 
 #blog-post .masthead {
-    padding: 6rem 25% 8rem;
+    padding: 3rem 25% 12rem;
+    background-color: #fafafa;
 }
 
 #blog-post .masthead h1 {
@@ -718,7 +721,7 @@ footer img {max-width: 46px; padding-bottom: 1.5rem;}
 }
 
 #blog-post main {
-    margin-top: -4rem;
+    margin-top: -9rem;
     background-color: transparent;
     max-width: 40rem;
     padding-bottom: 2.5rem;
@@ -734,4 +737,15 @@ footer img {max-width: 46px; padding-bottom: 1.5rem;}
 
 #blog-post main img {
     margin-bottom: 2.5rem;
+}
+
+/* FAQ */
+
+#faq .question-section {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+#faq .question-section li {
+    margin-bottom: 3.5rem;
 }
