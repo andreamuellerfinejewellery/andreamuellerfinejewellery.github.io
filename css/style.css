@@ -663,7 +663,7 @@ footer {
 
 .homepage-footer {margin-top: -3em; box-shadow: 0px 0px 147px rgba(64,80,38,.25);}
 
-footer img {max-width: 46px; padding-bottom: 1.5rem;}
+footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 
 .footer-social-media {margin: 2em auto .5em; width: 20rem;}
 
@@ -749,3 +749,21 @@ footer img {max-width: 46px; padding-bottom: 1.5rem;}
 #faq .question-section li {
     margin-bottom: 3.5rem;
 }
+
+/* CONTACT */
+
+.contact-social-media .sm-icon a.facebook {
+    background-image: url(../images/facebook-icon-purple.png);
+}
+
+.contact-social-media .sm-icon a.instagram {
+    background-image: url(../images/instagram-icon-purple.png);
+}
+
+.contact-social-media .sm-icon a.twitter {
+    background-image: url(../images/twitter-icon-purple.png);
+}
+
+#where-to-buy ul li {margin-bottom: 2.5rem}
+
+#where-to-buy ul h3, #where-to-buy ul p {margin-bottom: .25em}
