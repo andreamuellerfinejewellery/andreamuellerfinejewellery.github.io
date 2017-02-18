@@ -1,0 +1,205 @@
+.nav-flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-align-items: center;
+    align-items: center;
+    
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-flex-flow: wrap;
+    flex-flow: wrap;
+}
+
+.nav-logo-icon {
+    width: 35px;
+    height: 26px;
+    overflow: hidden;
+}
+
+.nav-top-row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+        
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.social-media-small {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    
+     width: 85px;
+}
+
+.nav-left {
+    -webkit-box-ordinal-group: 2;  
+    -moz-box-ordinal-group: 2;     
+    -ms-flex-order: 2;     
+    -webkit-order: 2;
+    order: 2;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    
+    margin-right: 10%;
+}
+
+.nav-right {
+    -webkit-box-ordinal-group: 3;  
+    -moz-box-ordinal-group: 3;     
+    -ms-flex-order: 3;     
+    -webkit-order: 3;
+    order: 2;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.nav-show-large {
+    display: none;
+}
+
+.nav-show-small {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.social-media {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+}
+
+@media only screen and (min-width:45em) {
+    
+    .nav-flex {
+        width: 100%;
+    }
+    
+    .nav-logo {
+        -webkit-box-ordinal-group: 2;  
+        -moz-box-ordinal-group: 2;     
+        -ms-flex-order: 2;     
+        -webkit-order: 2;
+        order: 2;
+    }
+
+    .nav-left {
+        -webkit-box-ordinal-group: 1;
+        -moz-box-ordinal-group: 1;
+        -ms-flex-order: 1;
+        -webkit-order: 1;
+        order: 1;
+        
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        
+        margin-right: 0;
+    }
+
+    .nav-right {
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 3;
+        -webkit-order: 3;
+        order: 3;
+        
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        
+        -webkit-flex-grow: 1;
+        flex-grow: 1;
+        
+        align-items: center;
+    }
+    
+    .nav-show-large {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+    
+    .nav-show-small {
+        display: none;
+    }
+    
+    .nav-logo-large {
+        margin: 1em 5% 0.25em;
+        width: 150px;
+        height: 57px;
+        overflow: hidden;
+    }
+    
+    .social-media {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        
+        -webkit-flex-grow: .1;
+        flex-grow: .1;
+    }
+}
+
+
+@media only screen and (min-width:61em) {
+    
+    .nav-logo-large {
+        width: 220px;
+        height: 83px;
+    }
+    
+    .nav-logo {
+        margin: 1em 10% 0.25em;
+    }
+
+}
