@@ -735,8 +735,51 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     font-size: 98%;
 }
 
+#blog-post main small {
+    padding: 0 .5rem;
+    margin-bottom: 2.5rem;
+    display: block;
+}
+
 #blog-post main img {
     margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+#blog-post main .withcaption {
+    margin-bottom: 0.85rem;
+    margin-top: 2.5rem;
+}
+
+#blog-post main .less-above {
+    margin-top: -1rem;
+}
+
+
+.two-col-img {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+.two-col-img div {
+    width: 50%;
+}
+
+.two-col-img div:first-child {
+    margin-right: 2.5%;
+}
+
+.two-col-img div:nth-child(2) {
+    margin-left: 2.5%;
 }
 
 /* FAQ */
@@ -751,6 +794,8 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 }
 
 /* CONTACT */
+
+#contact footer {padding: 2em 5% 4em;}
 
 .contact-social-media .sm-icon a.facebook {
     background-image: url(../images/facebook-icon-purple.png);
