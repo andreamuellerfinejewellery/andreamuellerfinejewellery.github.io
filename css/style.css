@@ -430,7 +430,7 @@ ul {
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
-    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/collection-1.jpg);
+    background-image: url("http://www.justaddsalt.ca/andreamueller2017/images/collection-2.jpg");
     
     border: solid .0875rem #e7e8ed;
     border-radius: .0625em;
@@ -439,6 +439,10 @@ ul {
     -webkit-transition:all 0.5s ;
     -o-transition:all 0.5s ;
     -moz-transition:all 0.5s ;
+}
+
+#collections ul li:first-child {
+    background-image: url(http://www.justaddsalt.ca/andreamueller2017/images/collection-1.jpg);
 }
 
 #collections ul li a {
