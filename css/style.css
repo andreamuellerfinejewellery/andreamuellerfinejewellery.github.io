@@ -425,13 +425,12 @@ ul {
     display: -webkit-flex;
     display: flex;
     
+    -webkit-align-items: stretch;
     align-items: stretch;
-    margin-bottom: 2.85%;
-    width: 45%;
-    margin: 1%;
-}
+    
+    width: 100%;
+    margin-bottom: 2.4%;
 
-#collections ul li {
     background-size: 100%;
     background-position: center top;
     background-repeat: no-repeat;
@@ -485,13 +484,19 @@ ul {
     padding-bottom: .8em;
 }
 
-@media only screen and (min-width: 45rem){
-    #collections ul {
-        flex-direction: row;
+@media only screen and (min-width: 35rem){
+    #collections ul li {
+        width: 48%;
+        margin: 1%;
     }
+}
+
+@media only screen and (min-width: 35rem){
+
     
     #collections ul li {
         width: 30%;
+        margin: 1%;
     }
 }
 
