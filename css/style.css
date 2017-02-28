@@ -40,6 +40,7 @@ main, nav {
 
 .flex-item{
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;    
 }
 
@@ -169,6 +170,7 @@ section {margin: 100px 0;}
     flex-flow: wrap;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -366,6 +368,7 @@ ul {
     flex-wrap: wrap;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -415,6 +418,7 @@ ul {
     flex-wrap: wrap;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -426,6 +430,7 @@ ul {
     display: flex;
     
     -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
     
     width: 100%;
@@ -587,6 +592,7 @@ ul {
     flex-wrap: wrap;
     
     -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     
     width: 100%;
@@ -716,6 +722,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     
     -webkit-flex-flow: row wrap;
@@ -803,6 +810,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     justify-content: space-between;
     
     -webkit-align-items: flex-start;
+    -ms-flex-align: start;
     align-items: flex-start;
     
     -webkit-flex-flow: wrap;
@@ -837,9 +845,13 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-justify-content: space-between;
+    -ms-flex-pack: space-between;
     justify-content: space-between;
     
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
     align-items: stretch;
+    
     flex-flow: wrap;
 }
 
@@ -853,6 +865,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     
     border: solid .0875rem #e8bfb1;
@@ -913,6 +926,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     
     -webkit-flex-flow: row wrap;
@@ -952,9 +966,11 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
     
     background-color: rgba(232,191,177,.65);
@@ -985,20 +1001,12 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     display: flex;
     
     -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
-    
     
     -webkit-justify-content: center;
-    justify-content: space;
-    
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    
-    -webkit-align-items: center;
-    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     
     -webkit-flex-direction: row;
     flex-direction: row;
