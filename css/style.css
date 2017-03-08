@@ -221,7 +221,7 @@ section {margin: 100px 0;}
 
 blockquote {
     padding: 7em 10% 3.75em;
-    background-color: #f4c7b7;
+    background-color: #f2f2fd;
     position: relative;
     z-index: 9;
     max-width: 35.75em;
@@ -686,10 +686,10 @@ footer {
     z-index: 1;
     
     background-color: #a3a5c0;
-    padding: 7em 5% 6em;
+    padding: 5.45em 5% 6em;
 }
 
-.homepage-footer {margin-top: -3em; box-shadow: 0px 0px 147px rgba(64,80,38,.25);}
+/*.homepage-footer {margin-top: -3em; box-shadow: 0px 0px 147px rgba(64,80,38,.25);}*/
 
 footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 
@@ -781,6 +781,8 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 #blog-post main small {
     padding: 0 .5rem;
     margin-bottom: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
@@ -797,7 +799,6 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
 #blog-post main .less-above {
     margin-top: -1rem;
 }
-
 
 .two-col-img {
     display: -webkit-box;
