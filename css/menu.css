@@ -182,6 +182,7 @@
     
     .nav-logo-large {
         margin: 1em 5% 0.25em;
+        padding-top: 2px;
         width: 150px;
         height: 57px;
         overflow: hidden;
