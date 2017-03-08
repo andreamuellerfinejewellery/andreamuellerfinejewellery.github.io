@@ -84,7 +84,7 @@
     -moz-box-ordinal-group: 3;     
     -ms-flex-order: 3;     
     -webkit-order: 3;
-    order: 2;
+    order: 3;
     
     display: -webkit-box;
     display: -moz-box;
@@ -114,6 +114,7 @@
 
 .social-media {
     -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
     align-self: flex-end;
 }
 
