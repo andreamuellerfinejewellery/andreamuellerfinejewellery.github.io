@@ -118,6 +118,7 @@ a {color: #505275;}
     height: 26px;
     overflow: hidden;
     text-indent: 60px;
+    margin-left: 3px;
 }
 
 .sm-icon a {

@@ -207,8 +207,8 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
         
-        -webkit-flex-grow: .1;
-        flex-grow: .1;
+        /*-webkit-flex-grow: .1;
+        flex-grow: .1;*/
     }
 }
 
