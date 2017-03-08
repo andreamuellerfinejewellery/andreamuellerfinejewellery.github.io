@@ -193,7 +193,7 @@ section {margin: 100px 0;}
 /* ELEMENTS */
 
 .blockquote-wrapper {
-    padding: 7% 8%;
+    padding: 12% 8%;
     background-image: url(../images/am-blockquote.jpg);
     position: relative;
     overflow: hidden;
@@ -247,7 +247,7 @@ blockquote p:before {
     height: 35px;
     width: 55px;
     
-    background-image: url(../images/am-ornament.png);
+    background-image: url(../images/am-ornament-footer.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
