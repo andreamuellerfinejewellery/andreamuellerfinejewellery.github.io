@@ -520,10 +520,6 @@ ul {
     }
 }
 
-#collections ul li:first-child {
-    background-image: url(../images/collection-1.jpg);
-}
-
 /* Call to action */
 
 .ctas {margin-bottom: .5em}
