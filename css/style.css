@@ -991,9 +991,9 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     -moz-transition:all 0.25s cubic-bezier(.46,0,.59,1);
 }
 
-/*.collection-grid figure:hover figcaption {
+.collection-grid figure:hover figcaption {
     opacity: 1;
-} */
+} 
 
 .collection-nav {
     display: -webkit-box;
