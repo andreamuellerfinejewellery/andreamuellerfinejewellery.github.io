@@ -451,16 +451,24 @@ ul {
     -moz-transition:all 0.5s ;
 }
 
+/* Women's Wedding */
 #collections ul li:first-child {
-    background-image: url(../images/collection-1.jpg);
+    background-image: url(../images/collection-womens-wedding.jpg);
 }
 
+/* Men's Wedding */
 #collections ul li:nth-child(2) {
-    background-image: url(../images/collection-3.jpg);
+    background-image: url(../images/collection-mens-wedding.jpg);
 }
 
+/* Engagement Rings */
 #collections ul li:nth-child(3) {
-    background-image: url(../images/collection-2.jpg);
+    background-image: url(../images/collection-engagement-rings.jpg);
+}
+
+/* Gemstone Rings */
+#collections ul li:nth-child(4) {
+    background-image: url(../images/collection-gemstone-rings.jpg);
 }
 
 #collections ul li a {
