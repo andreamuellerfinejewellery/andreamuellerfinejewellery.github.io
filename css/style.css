@@ -514,11 +514,11 @@ ul {
     }
 }
 
-/*@media only screen and (min-width: 60rem){    
+@media only screen and (min-width: 60rem){    
     #collections ul li {
         width: 22%;
     }
-}*/
+}
 
 /* Call to action */
 
@@ -951,7 +951,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
         width: 32%;
 }
 }
-    
+   /* 
 @media only screen and (min-width: 45em) {
     .collection-grid figure {
         width: 23%;
@@ -962,7 +962,7 @@ footer img, .ornament {max-width: 46px; padding-bottom: 1.5rem;}
     .collection-grid figure {
         width: 19%;
 }
-}
+}*/
 
 .collection-grid figure figcaption {
     display: -webkit-box;
